@@ -67,7 +67,7 @@
 
         @foreach($user->getRoleNames() as $v)
 
-           <label class="badge badge-success">{{ $v }}</label>
+           <label class="badge badge-success btn btn-primary">{{ $v }}</label>
 
         @endforeach
 
@@ -99,6 +99,6 @@
 {!! $data->render() !!}
 
 
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
+
 
 @endsection
